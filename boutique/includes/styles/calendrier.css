@@ -1,0 +1,71 @@
+/* Les balises générales */
+#calendrier{
+	display:block;
+	position:absolute;
+	/*top:240px;*/
+	z-index:16;
+	/*left:620px;*/
+	left:600px;
+	margin-top:-150px;
+	width:300px;
+}
+a{
+  color: #CC0000;
+  text-decoration:none;
+}
+a:visited{
+  color: #CC0000;
+  text-decoration:none;
+}
+img{
+ border:0px;
+}
+/* le calendrier */
+.tab_calendrier{
+   empty-cells:show;
+   border:1px solid black;
+   border-collapse:collapse;
+   border-spacing: 0px;
+   margin:auto;
+   margin-top:2px;
+   background:#ffffff;
+}
+.cell_calendrier{
+  border:1px solid black;
+  text-align:center;
+  height:25px;
+  width:25px;
+}
+.cell_calendrier a{
+margin:0 10px 0 0;
+text-decoration:none;
+}
+.cell_calendrier p{
+margin:0 10px 0 0;
+text-decoration:none;
+color:#FF0000;
+}
+.cell_calendrier a:hover{
+font-weight:bold;
+text-decoration:underline;
+}
+.titre_calendrier{
+  text-align:center;
+  border:1px solid black;
+  height:27px;
+  /*background-color:#E9BCE6;*/
+  background-color:#BE0C30;
+  color:#FFFFFF;
+}
+span#titre{
+	width:180px;
+	font-weight:bold;
+}
+a#link_precedent{
+  float:left;
+  width:25px;
+}
+a#link_suivant{
+  float:right;
+  width:25px;
+}

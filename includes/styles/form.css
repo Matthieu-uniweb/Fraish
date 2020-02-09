@@ -1,0 +1,84 @@
+/* CSS Document */
+#article fieldset {
+	clear:both;
+	border:#bfbfbf 1px dashed;
+	padding:10px;
+	margin-top:15px;
+	color:#869508;
+}
+#article fieldset .classe {
+	float:left;
+}
+#article label {
+	float:left;
+	text-align:right;
+	width:210px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#869508;
+}
+#article .obligatoire {
+	font-weight:bold;
+}
+#article select {
+	border:1px solid #000000;
+	color:#000000;
+	margin-bottom:2px;
+}
+input.bouton {
+	color:#869508;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#dbe399;
+	border:#869508 1px solid;
+	padding:3px 10px 3px 10px;
+}
+input.bouton:hover {
+	border:#FFFFFF 1px solid;
+}
+a.bouton {
+	display:block;
+	color:#869508;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#dbe399;
+	border:#869508 1px solid;
+	margin-top:5px;
+	padding:3px 10px 3px 10px;
+	text-decoration:none;
+}
+a.bouton:hover {
+	border:#FFFFFF 1px solid;
+	text-decoration:none;
+}
+input.caseacocher {
+	color:#869508;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#dbe399;
+	border:0px;
+	padding:0px;
+}
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#869508;
+	border:#869508 1px solid;
+	background-color:#dbe399;
+	padding-left:2px;
+}
+input {
+	color:#869508;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#dbe399;
+	border:#869508 1px solid;
+	padding:1px 2px 1px 2px;
+}
+#article select {
+	color:#869508;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#dbe399;
+	border:#869508 1px solid;
+}

@@ -1,0 +1,49 @@
+/* CSS Document */
+#contenu#conteneur {
+	height:450px;
+	text-align: left;
+}
+#contenu #aliments {
+	position:absolute;
+	float: none;
+	margin:0 0 0 -600px;
+}
+#contenu #aliments p {
+	float:none;
+	text-align:right;
+	margin: 0 0 10px 0;
+}
+#contenu #aime {
+	position:absolute;
+	float: none;
+	margin:0 0 0 -120px;
+}
+#contenu #aime p {
+	text-align:center;
+	height:15px;
+}
+#contenu #moyen {
+	position:absolute;
+	float: none;
+	margin:0 0 0 -70px;
+}
+#contenu #moyen p {
+	text-align:center;
+	height:15px;
+}
+#contenu #deteste {
+	position:absolute;
+	float: none;
+	margin:0 0 0 -10px;
+}
+#contenu #aliments p {
+	float:none;
+	text-align:right;
+	height:15px;
+}
+#contenu #deteste p {
+	text-align:center;
+	height:15px;
+}
+
+

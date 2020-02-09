@@ -1,0 +1,3 @@
+Nombre d'images d'un article
+Dimension des images d'un article
+Nom de la boutique

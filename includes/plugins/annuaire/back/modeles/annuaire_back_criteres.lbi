@@ -1,0 +1,86 @@
+<?
+if ($options)
+	{
+	$tabOptions = explode(',', $options);
+	}
+
+if (! in_array('unePage', $tabOptions) )
+	{
+	if ($objet->numeroPage == '')
+		{
+		$objet->numeroPage = 1;
+		}
+?>
+ <table width="95%" border="0" cellspacing="5" cellpadding="0"> 
+ <tr> 
+   <td width="99%" nowrap class="textecourant"><b><? echo $objet->nombreReponses; ?> résultat(s)</b> trouvé(s)
+    sur <? echo $objet->nombreTotalPage; ?> page(s)</td> 
+   <?
+	if($objet->numeroPage != 1)
+		{
+		?> 
+   <td nowrap class="textecourant">&nbsp;&nbsp;<a href="javascript:;" class="lienContact" onClick="pagePrecedente();return false;"><img src="../../images/back/precedent.gif" width="11" height="11" border="0"  align="absmiddle"></a>&nbsp;&nbsp;</td> 
+   <?
+		}
+		?> 
+   <td align="center" nowrap class="textecourant">Page(s) :
+   <?
+	for ($i=1; $i <= $objet->nombreTotalPage; $i++)
+		{
+		if ($i == $objet->numeroPage)
+			{
+			echo '<b>'.$i.'</b>';
+			}
+		else
+			{
+			?> 
+   <a href="javascript:;" class="textecourant" onClick="allerAPage('<? echo $i; ?>');return false;"><? echo $i; ?></a> 
+   <?
+			}
+		if($i != $objet->nombreTotalPage)
+			{
+			echo ' - ';
+			}
+		}
+	?> </td> 
+   <?
+if($objet->numeroPage < $objet->nombreTotalPage)
+	{
+	?> 
+   <td nowrap class="textecourant">&nbsp;&nbsp;<a href="javascript:;" class="lienContact" onClick="pageSuivante();return false;"><img src="../../images/back/suivant.gif" width="11" height="11" border="0"  align="absmiddle"></a>&nbsp;</td> 
+   <?
+	}
+	?> 
+  </tr> 
+</table> 
+<table width="95%"  border="0" cellspacing="0" cellpadding="0"> 
+ <tr> 
+  <td bgcolor="#898DB0"><img src="../../images/e.gif" width="20" height="1"></td> 
+ </tr> 
+</table> 
+<table width="95%" border="0" cellpadding="0" cellspacing="0"> 
+ <tr> 
+  <td><table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+    <tr> 
+     <td valign="top" class="menuHaut"><table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+       <tr> 
+        <td valign="top" nowrap bgcolor="#898DB0" class="menuHaut">&nbsp;&nbsp;Vos
+         crit&egrave;res : &nbsp;&nbsp;</td> 
+       </tr> 
+      </table></td> 
+     <td valign="top" class="textecourant">&nbsp;&nbsp;</td> 
+     <td width="99%" valign="top" class="textecourant"><? echo $criteres['votreRecherche']; ?></td> 
+     <td valign="middle" nowrap><a href="../modifier_structure.php" class="textecourant"><img src="../../images/back/f_bleu.gif" width="16" height="12" hspace="2" border="0" align="absmiddle">Autre
+       recherche</a></td> 
+    </tr> 
+   </table></td> 
+ </tr> 
+</table> 
+<table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"> 
+ <tr> 
+  <td><img src="../../images/e.gif" width="1" height="15"></td> 
+ </tr> 
+</table> 
+<?
+	} // FIN if (! in_array('unePage', $tabOptions) )
+?> 

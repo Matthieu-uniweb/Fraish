@@ -1,0 +1,352 @@
+/*																								*/
+/* FICHIER CSS DE L'ADMINISTRATION DE L'ANNUAIRE 	*/
+/*																								*/
+
+.alphabet {
+	background-color:#E6E6E6;
+	cursor: hand;
+}
+.alphabet_over {
+	background-color:#CCCCCC;
+	cursor: hand;
+}
+.alphabet_selectionne {
+	background-color:#CCCCCC;
+	cursor: hand;
+}
+.arbre
+	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration:none;
+	}
+.bouton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	border: thin solid #000000;
+	border-width: 1px;
+	cursor: hand;
+}
+.chapitre {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ECECEC;
+	letter-spacing: 2px;
+}
+.checkbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 6px;
+	color: #00185B;
+	line-height: 6px;
+}
+.divVisible {
+	visibility:visible;
+	padding-left:10px;
+	display:block;
+	cursor: hand;
+}
+.divInvisible {
+	visibility:hidden;
+	padding-left:10px;
+	display:none;
+	cursor: hand;
+}
+.en_tete_contenu {
+	background-color: #E6E6E6;
+	height: 25px;
+	border: 1px solid #C1C1C1;
+}
+.input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+}
+.input50 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 50px;
+}
+.inputGrise50 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 50px;
+	background-color: #CCCCCC;
+}
+.input100 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 100px;
+}
+.inputGrise100 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 100px;
+	background-color: #CCCCCC;
+}
+.input150 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 150px;
+}
+.inputGrise150 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 150px;
+	background-color: #CCCCCC;
+}
+.input200 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 200px;
+}
+.inputGrise200 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 200px;
+	background-color: #CCCCCC;
+}
+.input250 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 250px;
+}
+.inputGrise250 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 250px;
+	background-color: #CCCCCC;
+}
+.input300 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 300px;
+}
+.inputGrise300 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 300px;
+	background-color: #CCCCCC;
+}
+.input400 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 400px;
+}
+.inputGrise400 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 400px;
+	background-color: #CCCCCC;
+}
+.input500 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 500px;
+}
+.inputGrise500 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 500px;
+	background-color: #CCCCCC;
+}
+.inputTextearea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 200px;
+}
+.inputGriseTextearea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+	width: 200px;
+	background-color: #CCCCCC;
+}
+.ligne_contenu {
+	background-color: #FFFFFF;
+	height: 20px;
+	border-top: 1px solid #E6E6E6;
+	border-right: 1px Aucune #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	border-left: 1px Aucune #E6E6E6;
+}
+.menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration:none;
+}
+.menu:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration:underline;
+}
+.menuHaut {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.menuHaut:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+.pied {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.pied:hover {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration:none;
+}
+.popStyle {
+	border: 1px solid #1F464B;
+	filter: Alpha(Opacity=90, FinishOpacity=90);
+	background-color: #D6DDE2;
+}
+.titrePopFrame {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+}
+.texte {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #384089;
+}
+.textecourant {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: none;
+	color: #666666;
+	font-weight: normal;
+	font-style: normal;
+}
+a.textecourant {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: none;
+	color: #333333;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration:underline;
+}
+a.textecourant:hover {
+	text-decoration:none;
+	color: #333333;
+}
+.titre {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+.rubriqueGuideFermee {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	background-image:url(../../images/back/clic_plus.gif);
+	background-position:left;
+	background-repeat:no-repeat;cursor: hand;
+}
+
+.rubriqueGuideFermeeOver {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	background-position:left;
+	background-repeat:no-repeat;
+	background-image:url(../../images/back/clic_plus-over.gif);
+	cursor: hand;
+}
+
+.rubriqueGuideOuverte {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	background-image:url(../../images/back/clic_moins.gif);
+	background-position:left;
+	background-repeat:no-repeat;cursor: hand;
+}
+
+.rubriqueGuideOuverteOver {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	background-position:left;
+	background-repeat:no-repeat;
+	background-image:url(../../images/back/clic_moins-over.gif);
+	cursor: hand;
+}
+
+.rubriqueGuideFinale {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	cursor: hand;
+}
+
+.rubriqueGuideFinale:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	cursor: hand;
+}

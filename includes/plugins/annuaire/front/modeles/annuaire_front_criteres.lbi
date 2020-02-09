@@ -1,0 +1,89 @@
+<?
+if ($options)
+	{
+	$tabOptions = explode(',', $options);
+	}
+
+if (! in_array('unePage', $tabOptions) )
+	{
+	if ($objet->numeroPage == '')
+		{
+		$objet->numeroPage = 1;
+		}
+?>
+ <table width="100%"  border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+     <td bgcolor="#F6AC00"><img src="../../images/e.gif" width="6" height="1"></td> 
+     <td width="99%"><table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+         <tr> 
+          <td width="99%" nowrap class="textecourant">&nbsp;&nbsp; <b><? echo $objet->nombreReponses; ?> résultat(s)</b> trouvé(s)
+            sur <? echo $objet->nombreTotalPage; ?> page(s)</td> 
+        </tr> 
+         <tr> 
+          <td width="100%" class="textecourant"><table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+              <tr> 
+                <td valign="top" nowrap class="textecourant"><b>&nbsp;&nbsp; Vos
+                  crit&egrave;res : &nbsp;</b></td> 
+                <td width="99%" valign="top" class="textecourant"><? echo $criteres['votreRecherche']; ?></td>  
+              </tr> 
+            </table></td> 
+        </tr>
+				<tr>
+					<td width="100%" class="textecourant"><table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+              <tr>
+								<td width="99%" class="textecourant">&nbsp;</td>
+							<?
+				if($objet->numeroPage != 1)
+					{
+					?> 
+                <td valign="top" nowrap class="textecourant">&nbsp;&nbsp;<a href="javascript:;" class="guideResultats" onClick="pagePrecedente();return false;"><img src="../../images/front/precedent.gif" width="11" height="11" border="0"  align="absmiddle"></a>&nbsp;&nbsp;</td> 
+                <?
+					}
+					?> 
+                <td align="center" valign="top" nowrap class="textecourant">Page(s)
+                  :
+                  <?
+				for ($i=1; $i <= $objet->nombreTotalPage; $i++)
+					{
+					if ($i == $objet->numeroPage)
+						{
+						echo '<b>'.$i.'</b>';
+						}
+					else
+						{
+						?> 
+                  <a href="javascript:;" class="textecourant" onClick="allerAPage('<? echo $i; ?>');return false;"><? echo $i; ?></a> 
+                  <?
+						}
+					if($i != $objet->nombreTotalPage)
+						{
+						echo ' - ';
+						}
+					}
+				?> </td> 
+                <?
+			if($objet->numeroPage < $objet->nombreTotalPage)
+				{
+				?> 
+                <td valign="top" nowrap class="textecourant">&nbsp;&nbsp;<a href="javascript:;" class="guideResultats" onClick="pageSuivante();return false;"><img src="../../images/front/suivant.gif" width="11" height="11" border="0"  align="absmiddle"></a>&nbsp;</td> 
+                <?
+				}
+				?>
+							</tr>
+					</table></td>
+				</tr>
+       </table></td> 
+   </tr> 
+  <tr> 
+     <td width="100%" colspan="2" background="../../images/front/pointille_horizontal.gif" style="background-repeat: repeat-x;"><img src="../../images/e.gif" width="1" height="1"></td> 
+   </tr> 
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="6">
+  <tr>
+    <td><img src="../../images/e.gif" width="1" height="10"></td> 
+  </tr>
+</table>
+ 
+<?
+	} // FIN if (! in_array('unePage', $tabOptions) )
+?> 

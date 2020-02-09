@@ -1,0 +1,91 @@
+#paiementCarteBancaire, #paiementCheque, #paiementTitresResto, #paiementEspeces {
+	display:none;
+}
+hr {
+	float:left;
+	width:100%;
+	border-top:solid 1px #BE0C30;
+}
+
+/** formulaire pour créditer son compte fraish **/
+#formulaire-credit {
+	position:relative;
+	width:696px;
+	height:1050px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#formulaire-credit #fond-formulaire {
+	position:absolute;
+}
+#formulaire-credit #nom {
+	position:absolute;
+	margin-left:80px;
+	margin-top:514px;
+}
+#formulaire-credit #prenom {
+	position:absolute;
+	margin-left:428px;
+	margin-top:514px;
+}
+#formulaire-credit #mail {
+	position:absolute;
+	margin-left:325px;
+	margin-top:566px;
+	font-size:13px;
+}
+#formulaire-credit #rapprochementCommande {
+	position:absolute;
+	margin-left:80px;
+	margin-top:606px;
+	font-size:12px;
+}
+#formulaire-credit #mode-especes {
+	position:absolute;
+	margin-left:160px;
+	margin-top:744px;
+	font-weight:bold;
+}
+#formulaire-credit #mode-cheque #numCheque {
+	position:absolute;
+	margin-left:315px;
+	margin-top:665px;
+	font-size:13px;
+}
+#formulaire-credit #mode-cheque #somme {
+	position:absolute;
+	margin-left:520px;
+	margin-top:665px;
+	font-weight:bold;
+}
+#formulaire-credit #mode-titresResto #nbTitres {
+	position:absolute;
+	margin-left:340px;
+	margin-top:697px;
+	font-size:13px;
+}
+#formulaire-credit #mode-titresResto #valeurTitre {
+	position:absolute;
+	margin-left:505px;
+	margin-top:697px;
+	font-size:13px;
+}
+#formulaire-credit #mode-titresResto #somme {
+	position:absolute;
+	margin-left:200px;
+	margin-top:715px;
+	font-weight:bold;
+}
+#formulaire-credit #date {
+	position:absolute;
+	margin-left:90px;
+	margin-top:832px;
+	font-size:13px;
+}
+#formulaire-credit #numClient {
+	position:absolute;
+	margin-left:182px;
+	margin-top:880px;
+	font-size:13px;
+}
+
+/** (FIN) formulaire pour créditer son compte fraish **/

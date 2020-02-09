@@ -1,0 +1,74 @@
+Depuis toute page du site, voici le mode d'ouverture du player :
+
+<a href="javascript:;" onclick="MM_openBrWindow('../../includes/plugins/player_flash_video/index.php?nomvideo=estivales_2003_bd.swf','video','width=297,height=331')">Visualisez 
+                    la vidéo des estivales 2003, <br>
+                    basse définition, sans son (3.3 Mo), modem 56K<br>
+                    </a>
+
+Pour lire une vidéo 2 fichiers son nécessaires player.swf et le media video au format swf lui aussi
+(voir repertoire structure site\videos\_exemples)
+
+
+______________________
+
+Comment ça marche :
+> via la variable get de index.php on dit à player swf quelle est la vidéo swf (ou l'animation) qu'il doit inclure.
+(../../includes/plugins/player_flash_video/index.php?nomvideo=estivales_2003_bd.swf)
+
+Ce fichier détecte automatiquement la présence du player flash 6, et met un lien si pas installé.
+
+> le fichier media_video.fla est un exemple de celui qui recevra la video
+en début on trouve une variable titre ("titreVideo"), qui peremttra le titrage video automatique 
+à l'intérieur du player. (voir repertoire structure site\videos\_exemples)
+
+> Le player swf, effectue automatiquement les tâches suivantes :
+Calcul du poids tital de la vidéo
+Configuration automatique de l'animation de preload
+Gestion de tous les boutons du player
+Centrage de la vidéo sur la scène quelque soit sa taille
+
+(../includes/plugins/multimedia/telecharge_flash.htm)
+Titrage de la video, si la variable "titreVideo" est renseignée dans le fichier video swf
+
+Améliorations possibles :
+gérer le streaming
+gérer le zoom video
+fonction d'enrgsitrement de la video
+
+
+______________________
+
+Comment doit être la vidéo avant l'import dans flash :
+- mov ou avi avec codec pas trop récent et surtout pas sorenson, 
+pas trop destructif : Microsoft video 1 par exemple
+- 25 images par secondes
+- taille : peut importe
+- durée : coupe vidéo faite avant l'import
+
+______________________
+
+On doit dont transformer les vidéos au format swf.
+
+Lors de l'import dans flash :
+> Qualité haut débit : 
+taux de qualité sorenson : 85, 1:1
+
+> Qualité bas débit :
+taux de qualité sorenson : 85, 1:2 (1:3 marche bien aussi pour des petites videos)
+
+__________________________
+
+Procédure de numérisation de dvd
+1- copier les VOB sur le disque dur
+2- Avec le logiciel NeoDivX : créer un d2v (son non séparé) avec tous les vob nécessaires
+3- Avec le logiciel NeoDivX encoder la vidéo : 
+Codec video : MpegXDiv4, 
+Son : pas d'amplifcation ni de normalisation, compression 96kbps
+Lancer l'encodage
+4- avec le logiciel virtual dub :
+Recadrer la vidéo
+Fixer des dimensions plus petites
+Retailler la longueur de la video
+Choisir le mode de compression Microsoft Video 1
+Exporter la video
+5- importer l'avi créée dans flash en fixant les dimensions finales.

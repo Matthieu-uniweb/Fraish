@@ -1,0 +1,74 @@
+.contenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+.sousTitrePage {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #006600;
+}
+.titrePage {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #F0123F;
+}
+
+.titrePageBoost {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+.titrePageSmooth {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF6600;
+}
+
+form {
+margin-bottom : 0px;
+}
+
+.texteTableauComposition {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+
+.texteTableauCompositionTitre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #339933;
+}
+.fond_entete_pop {
+	background-image: url(../../images/site/fond_droite_pop.gif);
+	}
+
+.inputPopup {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border: 1px solid #FFC52E;
+	width: 150px;
+}
+
+#piedPage {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FFFFFF;
+}
+#piedPage a{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FFFFFF;
+text-decoration:underline;
+}
+#piedPage a:hover {
+
+}

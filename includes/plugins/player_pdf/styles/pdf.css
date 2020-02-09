@@ -1,0 +1,49 @@
+.texte {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	color: #7B7B7B; 
+	text-decoration: none;
+}
+.caracteristiques {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	color: #7B7B7B; 
+	text-decoration: none;
+}
+.caracteristiques:hover {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	color: #7B7B7B; 
+	text-decoration: underline;
+}
+.telechargement {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	color: #840101; 
+	text-decoration: none;
+}
+.telechargement:hover {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	color: #840101; 
+	text-decoration: underline;
+}
+.lien_texte {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	color: #7B7B7B; 
+	text-decoration: underline;
+}
+.lien_texte:hover {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	color: #7B7B7B; 
+	text-decoration: none;
+}
+.titre_page {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}

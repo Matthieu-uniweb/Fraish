@@ -1,0 +1,14 @@
+Depuis toute page du site, voici le mode d'ouverture du player :
+voir repertoire 
+
+structure site\videos\_exemples\_ex_page_liens_videos.htm
+
+_____________________
+
+Comment ça marche :
+> via la variable get de index.php on dit à player swf quelle est la vidéo flv (ou l'animation) qu'il doit inclure.
+(../../includes/plugins/player_flash_flv/index.php?nomvideo=video.flv)
+
+Ce fichier détecte automatiquement la présence du player flash 7, et met un lien si pas installé.
+
+______________________

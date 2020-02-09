@@ -1,0 +1,155 @@
+.moteur_recherche_resultat 
+    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #29A500;
+    }
+
+.moteur_recherche_titre1 
+    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+    }
+
+.moteur_recherche_titre2 
+    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+    }
+
+.moteur_recherche_requete 
+    {
+	FONT-WEIGHT: 600; FONT-SIZE: 10pt; COLOR: #000000; LINE-HEIGHT: 11pt; TEXT-ALIGN:center; FONT-WEIGHT:bold;
+    }
+
+.moteur_recherche_url:link 
+    {
+	FONT-WEIGHT: 300;
+	FONT-SIZE: 10pt;
+	COLOR: #0000CC;
+	LINE-HEIGHT: 11pt;
+	font-family: Arial, Helvetica, sans-serif;
+    }
+
+.moteur_recherche_url:visited
+    {
+	FONT-WEIGHT: 300;
+	FONT-SIZE: 10pt;
+	COLOR: #551A8B;
+	LINE-HEIGHT: 11pt;
+	font-family: Arial, Helvetica, sans-serif;
+    }
+
+.moteur_recherche_url:hover
+    {
+	FONT-WEIGHT: 300;
+	FONT-SIZE: 10pt;
+	COLOR: #0000CC;
+	LINE-HEIGHT: 11pt;
+	font-family: Arial, Helvetica, sans-serif;
+    }
+
+.moteur_recherche_url:active
+    {
+	FONT-WEIGHT: 300;
+	FONT-SIZE: 10pt;
+	COLOR: #FF0000;
+	LINE-HEIGHT: 11pt;
+	font-family: Arial, Helvetica, sans-serif;
+    }
+
+.moteur_recherche_commentaire 
+    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+    }
+
+.moteur_recherche_textetitre 
+    {
+	FONT-WEIGHT: 550; FONT-SIZE: 10pt; COLOR: #009900; LINE-HEIGHT: 11pt
+    }
+
+.moteur_recherche_description
+    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+    }
+	
+.moteur_recherche_mot
+    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+    }
+	
+.moteur_recherche_poids
+    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+    }
+	
+.moteur_recherche_date
+    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+    }
+
+.moteur_recherche_navigation 
+    {
+	FONT-WEIGHT: 400; FONT-SIZE: 10pt; LINE-HEIGHT: 15pt; FONT-WEIGHT:bold; TEXT-ALIGN: center; FONT-FAMILY: Verdana
+    }
+	
+.moteur_recherche_navigationvide 
+    {
+	FONT-WEIGHT: 400; FONT-SIZE: 10pt; LINE-HEIGHT: 15pt; FONT-WEIGHT:bold; TEXT-ALIGN: center; FONT-FAMILY: Verdana
+    }
+	
+.moteur_recherche_bouton {
+	background-color: #FAFCE9;
+	text-align: center;
+	border: none;
+	cursor: hand;
+	text-decoration: underline;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+.moteur_recherche_inputtext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+}
+
+.moteur_recherche_radio {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+}
+
+.moteur_recherche_checkbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+}
+
+.moteur_recherche_select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00185B;
+	border: 1px solid #1166B8;
+}
+
+.moteur_recherche_avancee
+    {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+    }

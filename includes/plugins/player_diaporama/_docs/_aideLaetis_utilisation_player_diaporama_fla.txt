@@ -1,0 +1,42 @@
+Depuis toute page du site, voici le mode d'ouverture du player :
+
+<a href="javascript:;" onClick="MM_openBrWindow('../../../includes/plugins/player_diaporama/index.php?nomDiaporama=diapExemple','diaporama','width=341,height=346')">Visualisez 
+  le diaporama diapExemple</a>
+
+______________________
+
+Comment ça marche :
+1 > via la variable get de index.php on dit à diaporama.swf quelle est le repertoire ou se trouve le diaporama
+(../../includes/plugins/player_flash_video/index.php?nomDiaporama=exemple)
+
+2 > index.php ouvre alors diaporama.swf?nomDiaporama=exemple
+(il gère automatiquement la présence ou non de flash player 6, si nonn affiche automatiquement le lien)
+
+3 > ensuite, diaporama.swf charge les variables php dans le fichiers liste_images.php?nomDiaporama=exemple
+
+(le programme liste_images.php génère la liste des variables nécessaires en allant
+explorer le répertoire site/images/diaporamas/nomDiaporama/ :
+il s'agit du nombre d'images, de la liste des images triées par ordre alphabétique, des légendes
+stockées dans la balise titre ITPC)
+
+> Le diaporama swf, effectue automatiquement les tâches suivantes :
+Préchargement de toutes les images dès le départ
+Centrage des images dès le départ
+Vérif que les 2 premières images sont finies de charger
+Gestion des préchargements par image
+Gestion de tous les boutons du player
+Centrage de la vidéo sur la scène quelque soit sa taille
+Affichage des légendes si elles existent
+
+Le fichier ombre_dessus.swf est nécessaire pour mettre le calque ombre au dessus de l'image
+
+
+______________________
+
+Comment doivent être les images dans le repertoire images/diaporamas/"nomDiaporama" :
+- ce doit être un jpeg
+- si possible de 320x240 (sinon dimensions inférieures)
+- depuis photoshop, ce doit être "enregistrer pour le web" sinon ça ne marche pas.
+- laur ordre est gérer par l'ordre alphabétique du nom de fichier
+- les fichiers images doivent se terminer par les caractères ".jpg" (tout autre fichier ne sera pas listé)
+

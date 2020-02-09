@@ -1,0 +1,69 @@
+
+body {
+	font-size: 62.5%;
+}
+
+div#newsletter * {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+div#newsletter {
+	color: #ffffff;
+	clear: both;
+	
+	height: 180px;
+	padding: 20px 30px 0 30px;
+	text-align: center;
+	/*background-image: url("../images/newsletter/background.png");*/
+	voice-family: "\"}\"";	
+	width: 500px;
+}
+
+div#newsletter p {
+	padding: 0 0 0 0;
+	font-size: 1.6em;
+	line-height: 22px;
+}
+
+div#newsletter form {
+	padding: 0 0 0 0;
+}
+
+div#newsletter form fieldset label {
+	display: block;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: left;
+}
+
+div#newsletter form fieldset input {
+	display: block;
+	margin: 8px 0 0 0;
+	border: 0;
+	padding: 6px 0 6px 6px;
+	font-size: 1.4em;
+}
+
+div#newsletter select option {
+	color: #000000;
+}
+
+div#newsletter form fieldset input#submit {
+	padding: 12px 0 0 36px;
+}
+
+div#newsletter form fieldset ol {
+	display: block;
+	clear: both;
+}
+
+div#newsletter form fieldset ol li {
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+div#newsletter div#response small {
+	font-size: 1.1em;
+	line-height: 16px;
+}

@@ -1,0 +1,211 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.menu2,
+.menu1,.menu3 {
+	width:416px;
+	position:relative;
+	height:310px;
+}
+.menu1 .bx-window,
+.menu2 .bx-window,
+.menu3 .bx-window,
+#menu1, #menu2,#menu3 {
+	width:416px;
+	height:310px;
+}
+#menu1 li,
+#menu2 li,
+.menu3 li {
+	list-style: none;
+	width:416px;
+	padding:0px;
+	height:310px;
+}
+#menu1,#menu2,#menu3{
+	height:310px;
+}
+.menu1 .bx-pager,
+.menu2 .bx-pager,
+.menu3 .bx-pager {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+.bx-captions{
+  background-color: #333333;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  width: 416px;
+  color:#fff;
+}
+.bonPlan {
+	width:684px;
+	padding: 20px 45px 37px 45px;
+	position:relative;
+	height:209px;
+}
+.bonPlan .bx-window,
+#bonPlan {
+	width:684px;
+	height:209px;
+}
+#bonPlan li {
+	list-style: none;
+	width:684px;
+	padding:0px;
+	height:209px;
+}
+.slides1 {
+	width:940px;
+	width:470px;
+	padding: 20px 45px 37px 45px;
+	position:relative;
+	height:410px;
+}
+.slides2 {
+	width:940px;
+	padding: 20px 45px 37px 45px;
+	position:relative;
+	height:410px;
+}
+.slides1 .bx-window ,
+#slides1{
+	width:940px;
+	width:470px;
+	height:410px;
+}
+.slides2 .bx-window ,
+#slides2{
+	width:940px;
+	height:410px;
+}
+#slides1 li {
+	list-style: none;
+	width: 400px;
+	padding:0px 35px;
+	height:205px;
+}
+#slides2 li {
+	list-style: none;
+	width: 400px;
+	padding:0px 35px;
+	height:205px;
+}
+#slides1 .photo,
+#slides2 .photo {
+	width:120px;
+	float:left;
+}
+.diaporama {
+	clear:both;
+}
+.diffusio, .diffusio2 {
+	width:350px;
+	position:relative;
+	height:363px;
+}
+.diffusio .bx-window,.diffusio2 .bx-window,#diffusio,#diffusio2 {
+	width:350px;
+	height:363px;
+}
+#diffusio li,#diffusio2 li {
+	list-style: none;
+	width:350px;
+	padding:0px;
+	height:363px;
+	background-color:#fff;
+	overflow:hidden;
+	position:relative;
+}
+#diffusio, #diffusio2{
+	height:363px;
+}
+#diffusio span,
+#diffusio2 span,
+.diffusio2 .bx-captions {
+	position:absolute;
+	bottom:0px;
+	display:block;
+	width:332px;
+	background-color:#8328B5;
+	background-image: url("http://tourisme-aveyron.loc/lib/laetis/diffusio-220-stcirq/extension/cdt-aveyron/assets/fonds/picto-images.gif");
+  background-position: 5px 7px;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 9px;
+  padding: 5px 0px 5px 18px;
+  height:15px;
+}
+#diffusio img,
+#diffusio2 img {
+	margin:0px auto;
+	display:block;
+}
+.diffusio .bx-pager {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:135px;
+	height:20px;
+	overflow:hidden;
+}
+.diffusio2 .bx-pager {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:81px;
+	height:20px;
+	overflow:hidden;
+}
+.masque-bx-pager{
+	width:1000px;
+	position:absolute;
+	left:0px; /*tres important pour ie*/
+	top:0px; /*tres important pour ie*/
+}
+
+.informationsProduit {
+	float:left;
+	width:280px;
+}
+
+
+/*commun*/
+.bx-prev {
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	background-image:url(btn_arrow_left.jpg);
+	width:45px;
+	height:53px;
+}
+.bx-next {
+	position: absolute;
+	right: 0px;
+	top: 100px;
+	outline:0;
+	background-image:url(btn_arrow_right.jpg);
+	width:45px;
+	height:53px;
+}
+.prev span, .next span {
+	display:none;
+}
+.bx-pager a {
+	float: left;
+	background: url(images/bg_pager.png) no-repeat 0 -21px;
+	width: 14px;
+	height: 17px;
+	color: #fff;
+	font-size: 11px;
+	margin-right: 6px;
+	padding: 4px 0 0 7px;
+}
+.bx-pager a:hover, .bx-pager a.pager-active {
+	background-position: 0 0;
+	text-decoration: none;
+}

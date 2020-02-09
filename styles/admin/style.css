@@ -1,0 +1,110 @@
+body{
+	background-color:#FFFFFF;
+	margin: 0; 			/* pour éviter les marges */
+	text-align: center; /* pour corriger le bug de centrage IE */	
+}
+.contenu { 
+	font: 12px/120%  Verdana, Helvetica, sans-serif;
+	color: #505050;
+}
+.sousTitre { 
+	font: 14px/120%  Verdana, Helvetica, sans-serif;
+	color: #505050;
+	font-weight:bold;
+}
+.bandeau_haut {
+	font: 25px/125%  Verdana, Arial, Helvetica, sans-serif;
+	color: #e8b601;
+	text-decoration:none;
+	font-weight:bold;
+}
+.bandeau_bas {
+	font: 9px/125%  Verdana, Arial, Helvetica, sans-serif;
+	color: #9d8d74;
+	text-decoration:none;
+}
+.table_orange { 
+	font: 12px/120%  Verdana, Helvetica, sans-serif;
+	color: #e8b601;
+}
+.bouton{
+	border: 1px black solid;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+.message {
+	font: 12px/120%  Verdana, Helvetica, sans-serif;
+	color: #9d2227;	
+}
+.warning { 
+	font: 10px/125%  Verdana, Arial, Helvetica, sans-serif;
+	color: #9d8d74;
+}
+a.fonction {
+	font: 12px/120%  Verdana, Helvetica, sans-serif;
+	color: #505050;
+	text-decoration:none;
+}
+a.fonction:hover { 
+	font: 12px/120%  Verdana, Helvetica, sans-serif;
+	color: #505050;
+	text-decoration:underline;
+}
+a.mailto {
+	font: 12px/125%  Verdana, Arial, Helvetica, sans-serif;
+	color: #9d8d74;
+	text-decoration:none;
+}
+a.mailto:hover { 
+	font: 12px/125%  Verdana, Arial, Helvetica, sans-serif;
+	color: #9d8d74;
+	text-decoration:underline;
+}
+a.signature {
+	font: 9px/125%  Verdana, Arial, Helvetica, sans-serif;
+	color: #9d8d74;
+	text-decoration:none;
+}
+a.signature:hover { 
+	font: 9px/125%  Verdana, Arial, Helvetica, sans-serif;
+	color: #9d8d74;
+	text-decoration:underline;
+}
+
+
+a.fo{ font: 12px  Arial, sans-serif;	color: #004872;	text-decoration:underline;}
+
+
+div#login_panel { 
+  background: url(./img/panel.gif) no-repeat;
+  width: 400px;
+  height: 240px;
+  margin: 100px auto 0 auto;
+  padding: 150px 0 0 15px;
+  text-align: left;
+  color: #555555;
+}
+
+div#pageadmin { 
+  background: #f6f6f6 url(./img/repy.gif) repeat-x;
+  width: 980px;
+  /*height: 100%;*/
+  /*height: 900px;*/
+  overflow: visible;
+  margin: 50px auto 0 auto;
+  padding: 10px 20px 20px 20px;
+  text-align: left;
+  color: #555555;
+  border: 1px solid #e1e5e5;
+  border-bottom: 3px solid #006ca2;
+}
+
+h2 {margin-bottom: 100px; color: #004269; width: 650px;}
+
+.spacer { clear: both; height: 0; border: 0;} 
+
+.shutDown {display: block; background: url(./img/shut_down_nb.png) no-repeat right top; float: right;height: 48px;padding: 15px 55px 0 0;color: #ffffff; margin: -10px 0 50px 0;} 
+.shutDown:hover{background: url(./img/shut_down.png) no-repeat right top;} 
+
+
+.blanc {color: #333333;} 

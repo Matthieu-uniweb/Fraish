@@ -1,0 +1,122 @@
+/* CSS Document */
+body {
+	position:absolute;
+	background-color: #BE0C30;
+}
+#enTete {
+	width:900px;
+	height: /*200px*//*183*/104px;
+	background-position:right;
+	background-image: url(/images/fraish_sans_flash.gif);
+	background-repeat: no-repeat;
+	
+}
+#enTeteQ {
+	width:900px;
+	height: 200px;
+	background-position:right;
+	background-image: url(/images/fraish_sans_flash-2.gif);
+	background-repeat: no-repeat;
+}
+#page {
+	height:auto;
+	width:900px;
+	margin: 0;
+	padding: 0;
+	background-color:#FFFFFF;
+}
+#page a{
+	padding: 0 0 0 10px;
+	color:#000000;
+	font-size:12px;
+}
+#contenu {
+	padding: 0 20px 0 20px;
+	min-height:450px;
+}
+#contenu h1 {
+	color: #df204c;
+	font-weight:bold;
+	padding: 0px 0 0px 0;
+	text-align:left;
+}
+#contenu h3{
+	font-weight:bold;
+}
+#contenu p{
+	font-size:12px;
+}
+#contenu p a{
+	color:#000000;
+}
+#contenu img {
+	display:inline;
+}
+#favori {
+	position:absolute;
+	top:200px;
+	right:10px;
+}
+#le-saviez-vous {
+	position:absolute;
+	top:/*270*/190px;
+	right:10px;
+	width:242px;
+	border:solid 2px #F9B954;
+	padding-left:4px;
+	padding-right:4px;
+	text-align:justify;
+	font-size:12px;
+}
+#monEspace {
+	position:absolute;
+	top:400px;
+	right:5px;
+	width:185px;
+	background-color:#F9B954;
+	padding:10px;
+}
+#monEspace h3 {
+	color:#FFFFFF;
+	font-size:14px;	
+}
+#jourLettre{
+	width:70px;
+	font-size:12px;
+	text-align:center;
+	margin:0 0 5px 0;
+}
+#infoRecharge {
+	position:absolute;
+	top:/*270*/250px;
+	right:5px;
+	width:200px;
+	border:solid 2px /*#F9B954*/#BE0C30;
+	/*padding-left:4px;
+	padding-right:4px;*/
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+}
+#infoRecharge h3 {
+	font-size:12px;
+	color:#BE0C30;
+	/*background-color:#F9B954;*/
+	/*padding:2px;*/
+	padding-left:8px;
+	padding-top:2px;
+}
+#infoRecharge p {
+	padding-left:8px;
+	font-size:11px;
+	text-align:left;
+}
+#infoRecharge p#bareme {
+	color:#000;
+/*	background-color:#BE0C30;*/
+	font-weight:bold;
+	
+}
+#infoRecharge a {
+	padding-left:8px;
+}

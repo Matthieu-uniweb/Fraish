@@ -1,0 +1,99 @@
+<?
+for ($i=0; $i<count($listeStructures); $i++)
+			{
+			$structure = new Tannuaire_structure_recherche($listeStructures[$i]->ID);
+			?>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+ <td align="center" bordercolor="#FFFFFF"><table width="95%"  border="0" cellpadding="0" cellspacing="0" bgcolor="#8FB089">
+   <tr>
+    <td width="10" bgcolor="#006600"><img src="../../images/e.gif" width="13" height="10"></td>
+    <td width="99%" class="menuHaut">&nbsp;&nbsp;
+     <?	if ($structure->nom != "") { echo $structure->nom; } ?>
+    </td>
+    <td width="10" bgcolor="#006600"><img src="../../images/e.gif" width="13" height="10"></td>
+   </tr>
+  </table>
+  <table width="95%" border="1" cellpadding="0" cellspacing="0" bordercolor="#006600">
+   <tr>
+    <td bordercolor="#FFF2FC"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+      <tr>
+       <td class="texte"><strong>Informations : </strong><br>
+        <span class="texte">
+        <?			
+			if ($structure->formeJuridique)
+				{
+				?>
+        Forme juridique : <? echo $structure->formeJuridique; ?><br>
+        <?
+				}
+			if ($structure->anneeCreation)
+				{
+				?>
+        Année de création : <? echo $structure->anneeCreation; ?><br>
+        <?
+				}
+			if ($structure->ID_typ_classement)
+				{
+				$classement = $structure->getTypeClassement($structure->ID_typ_classement);
+				if ($classement['type_asso'])
+					{ ?>
+        Classement Association : <? echo $classement['type_asso']; ?><br>
+        <? }
+				else if ($classement['type_naf'])
+					{ ?>
+        Classement Naf : <? echo $classement['type_naf']; ?><br>
+        <? }
+				else
+					{ ?>
+        Classement : <? echo $structure->ID_typ_classement; ?><br>
+        <? }
+				}
+			if ($structure->siret)
+				{
+				?>
+        Numéro Siret : <? echo $structure->siret; ?><br>
+        <?
+				}
+			if ($structure->ID_typ_structure)
+				{
+				?>
+        Type de structure : <? echo $structure->getTypeStructure($structure->ID_typ_structure); ?><br>
+        <?
+				}
+			if ($structure->effectifTotal)
+				{
+				?>
+        Effectif : <? echo $structure->effectifTotal; ?><br>
+        <?
+				}
+			?>
+        </span></td>
+      </tr>
+     </table></td>
+   </tr>
+   <?
+			
+			if ($structure->descriptif)
+			{
+			?>
+   <tr>
+    <td bordercolor="#FFF2FC" bgcolor="#BC829A"><img src="../../images/e.gif" width="1" height="1"></td>
+   </tr>
+   <tr>
+    <td bordercolor="#FFF2FC"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+      <tr>
+       <td class="texte"><? echo $structure->descriptif; ?> </td>
+      </tr>
+     </table></td>
+   </tr>
+   <?
+			}
+			?>
+  </table>
+  <br></td>
+</tr>
+</table>
+<?
+			} // FIN for ($i=0; $i<count($listeStructures); $i++)
+?>

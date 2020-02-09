@@ -1,0 +1,129 @@
+/* CSS Document */
+
+/************************************/
+/* Initialisation                   */
+/************************************/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	}
+
+body {
+	height: 100%; /* debug selection de texte */
+}
+
+a, a:link, a:visited, a:hover {
+	text-decoration: underline;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+img {
+	display:block;
+}
+
+ul{
+ list-style-type: square;
+}
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+label{
+ font-size: 100%;
+ font-style:italic;
+ color: #334d55;
+}
+
+strong, b {
+	font-weight:bold;
+}
+.imageCentre {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.imageDroite {
+	float:right;
+}
+
+.imageGauche {
+	float:left;
+}
+
+.imageDroiteMarge,
+.alignDroiteMarge {
+	float:right;
+	margin:0px 0px 5px 5px;
+}
+
+.imageDroiteMargeBordure {
+	float:right;
+	margin:0px 0px 5px 5px;
+	border:1px solid #000000;
+}
+
+.imageGaucheMarge {
+	float:left;
+	margin:0px 5px 5px 0px;
+}
+
+.imageGaucheMargeBordure {
+	float:left;
+	margin:0px 5px 5px 0px;
+	border:1px solid #000000;
+}
+
+.ajusteur	{ /* pour ajuster la hauteur de la ligne */
+	clear:both;
+	line-height:0px;
+	font-size:1px;
+	height:0px;
+}
+
+em {
+	font-style:italic;
+}
+.etapes {
+	/*border:dashed 1px #000;*/
+}
+.etapes li {
+	display:inline;
+	background-color:#999;
+	color:#fff;
+	padding-left:3px;
+	padding-right:3px;
+	font-size:14px;
+}
+.etapes li a {
+	color:#fff!important;
+	font-size:14px!important;
+}
+.etapes li.actif {
+	background-color:#CC0000;
+}
+.etapes li.actif a {
+	font-weight:bold;
+}
+.etapes li.ok {
+	background-color:#76BD48;
+}
+#menuboard{
+	background-color:#9BA906;
+	width:580px;
+	color:#fff;
+	padding:5px;
+}

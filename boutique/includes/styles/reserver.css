@@ -1,0 +1,102 @@
+#contenu {
+width:901px;
+text-align:center;
+}
+#contenu img {
+	display:inline;
+}
+#contenu #choixMenu {
+width:450px;
+float:left;
+background-color:#FF9900;
+}
+#contenu #tableauSoupes {
+width:300px;
+background-color:#99CCFF;
+font-size:16px;
+margin-left:200px;
+background-color:#FFFFCC;
+}
+#contenu #tableauSalades {
+width:901px;
+background-color:#CCFFCC;
+font-size:14px;
+text-align:center;
+background-color:#33CC99;
+height:100%;
+}
+#contenu #tableauSalades div.gauche {
+font-size:14px;
+width:230px; 
+height:auto;
+text-align:left;
+float:left;
+line-height:30px;
+vertical-align:middle;
+}
+#contenu #tableauSalades div.centre {
+font-size:14px;
+width:230px; 
+height:auto;
+text-align:left;
+float:left;
+line-height:30px;
+vertical-align:middle;
+}
+
+#contenu #tableauSalades div.droite {
+font-size:14px;
+width:230px; 
+height:auto;
+text-align:left;
+float:right;
+line-height:30px;
+vertical-align:middle;
+}
+#contenu #tableauSalades div.bas {
+font-size:14px;
+width:901px; 
+height:auto;
+text-align:center;
+vertical-align:middle;
+}
+#contenu #tableauSmoothies {
+font-size:14px;
+margin-left:190px;
+width:450px; 
+height:auto;
+text-align:left;
+}
+#contenu #tableauDairySmoothies {
+font-size:14px;
+margin-left:190px;
+width:450px; 
+height:auto;
+text-align:left;
+}
+#contenu #tableauJusDeFruits {
+font-size:14px;
+margin-left:190px;
+width:450px; 
+height:auto;
+text-align:left;
+}
+#contenu #choixMenuD {
+width:450px;
+float:left;
+background-color:#FF9900;
+}
+#contenu #choixMenuG {
+width:450px;
+float:left;
+background-color:#FF9900;
+}
+#contenu .choixMenuSmoothie {
+width:280px;
+float:left;
+background-color:#FF9900;
+}
+#contenu #bouton {
+width:900px;
+background-color:#FF9900;
+}

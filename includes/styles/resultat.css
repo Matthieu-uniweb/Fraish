@@ -1,0 +1,46 @@
+/* CSS Document */
+body {
+	position:absolute;
+	background-color: #BE0C30;
+}
+#enTete {
+	width:600px;
+	height: 300px;
+	background-position:right;
+	background-image: url(/images/fraish_sans_flash-1.gif);
+	background-repeat: no-repeat;
+	
+}
+#enTete h1 {
+	color: #df204c;
+	font-weight:bold;
+	padding: 250px 0 0 20px;
+	text-align:left;
+}
+#page {
+	height:auto;
+	width:600px;
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+	background-color:#FFFFFF;
+}
+#page a{
+	padding: 0 0 0 10px;
+	color:#000000;
+	font-size:12px;
+}
+#contenu {
+	padding: 0 20px 0 20px;
+}
+#contenu h3{
+	font-weight:bold;
+}
+#contenu p{
+	font-size:12px;
+}
+#contenu p a{
+	color:#000000;
+}
+#contenu img {
+	display:inline;
+}

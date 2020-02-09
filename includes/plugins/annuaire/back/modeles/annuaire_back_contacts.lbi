@@ -1,0 +1,111 @@
+<?
+for ($i=0; $i<count($listeContacts); $i++)
+			{
+			?>
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+ <td align="center" bordercolor="#FFFFFF"><table width="95%" border="0" cellpadding="0" cellspacing="0" bgcolor="#898DB0">
+   <tr>
+    <td width="10" bgcolor="#384089"><img src="../../images/e.gif" width="13" height="10"></td>
+    <td width="99%" class="menuHaut">&nbsp;&nbsp;
+     <?
+			if ($listeContacts[$i]->nom != "") { echo $listeContacts[$i]->afficherContact(); }			
+			?>
+    </td>
+    <td width="10" bgcolor="#384089"><img src="../../images/e.gif" width="13" height="10"></td>
+   </tr>
+  </table>
+  <table width="95%" border="1" cellpadding="0" cellspacing="0" bordercolor="#898DB0">
+  <?			
+			$adresses = $listeContacts[$i]->listerAdresses();
+			for($j=0; $j < sizeof($adresses); $j++)
+				{
+				$adresse = new Tannuaire_adresse($adresses[$j]);
+				if($adresse->ville != '')
+					{
+					?>
+  <tr>
+   <td bordercolor="#FAFDFE"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+     <tr>
+      <td class="texte"><strong>Adresse : </strong><span class="texte">
+       <?	echo $adresse->afficherAdresse(); ?>
+       </span></td>
+     </tr>
+    </table></td>
+  </tr>
+  <tr>
+   <td bordercolor="#FAFDFE" bgcolor="#898DB0"><img src="../../images/e.gif" width="1" height="1"></td>
+  </tr>
+  <?
+					} // FIN if($adresse->ville != '')
+				} // FIN for($j=0; $j < sizeof($adresses); $j++)
+
+			$communications = $listeContacts[$i]->listerCommunications();
+			if (sizeof($communications) > 0)
+				{
+				?>
+  <tr>
+   <td bordercolor="#FAFDFE"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+     <tr>
+      <td class="texte"><?
+				$communications = $listeContacts[$i]->listerCommunications();
+				for($k=0; $k < sizeof($communications); $k++)
+					{
+					$communication = new Tannuaire_communication($communications[$k]);
+					echo $communication->afficherCommunication('textecourant');
+					}
+				?>
+      </td>
+     </tr>
+    </table></td>
+  </tr>
+  <?
+				} // FIN if(sizeof($communications)>0)
+
+			$structuresServices = $listeContacts[$i]->listerStructuresServices();
+			if (sizeof($structuresServices) > 0)
+			{
+			?>
+  <tr>
+   <td bordercolor="#FAFDFE"><table width="100%"  border="0" cellspacing="3" cellpadding="0">
+     <tr>
+      <td class="texte"><?
+			for ($l=0; $l < sizeof($structuresServices); $l++)
+				{ 
+				?>
+       <b><? echo $structuresServices[$l]['nom_structure']; ?></b><br>
+       Service : <? echo $structuresServices[$l]['nom_service']; ?><br>
+       <?
+				}
+			?> 
+			</td>
+			</tr>
+			</table></td>
+			</tr><?
+			} // FIN if(sizeof($contacts)>0)
+
+			switch ($option)
+				{
+				case 'lier':
+					?>
+     <tr>
+      <td bordercolor="#FAFDFE"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+         <td align="right"><a href="javascript:;" class="textecourant" onClick="lierContactAnnuaire('<? echo $_POST['ID_user_courant']; ?>', '<? echo $listeContacts[$i]->ID; ?>'); return false;" title="Ce contact de l'annuaire correspond à l'utilisateur">Lier</a>&nbsp;&nbsp;</td>
+        </tr>
+       </table></td>
+     </tr>
+     <?
+					break;
+				
+				default:
+					break;
+				}
+			?>
+    </table>
+    <br></td>
+  </tr>
+</table>
+  <?
+			} // FIN for ($i=0; $i<count($listeContacts); $i++)
+?>

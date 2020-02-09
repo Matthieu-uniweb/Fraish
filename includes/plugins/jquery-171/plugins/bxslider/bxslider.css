@@ -1,0 +1,70 @@
+.diaporamaLaetis{
+	position:relative;
+	margin-right: 25px;
+	float:left;
+	background-color:#000;
+}
+#diaporamaLaetis{
+	margin:0px!important;
+	padding:0px!important;
+	overflow:hidden;
+}
+.diaporamaLaetis  li{
+	display:block;
+	height:100%;
+	overflow:hidden;
+	margin:0px!important;
+	padding:0px!important;
+}
+#diaporamaLaetis img {
+	margin:auto;
+	vertical-align: middle;
+}
+.bx-captions{
+  background-color: #333333;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  color:#fff;
+  opacity:0.7;
+  font-size:12px;
+  padding:5px;
+  z-index:1000;
+}
+/*commun*/
+.bx-prev {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	margin-top:-26px;
+	background-image:url(/lib/extern/jquery-171/plugins/bxslider/images/btn_arrow_left.jpg);
+	width:45px;
+	height:53px;
+	text-indent:-1500px;
+}
+.bx-next {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	margin-top:-26px;
+	outline:0;
+	background-image:url(/lib/extern/jquery-171/plugins/bxslider/images/btn_arrow_right.jpg);
+	width:45px;
+	height:53px;
+	text-indent:-1500px;
+}
+.bx-pager a {
+	float: left;
+	background-color:#000000;
+	width: 14px;
+	height: 17px;
+	color: #fff;
+	font-size: 11px;
+	margin-right: 6px;
+	padding: 4px 0 0 7px;
+	color:#fff!important;
+	text-decoration: none!important;
+}
+.bx-pager a:hover, .bx-pager a.pager-active {
+	background-color:#666;
+}

@@ -1,0 +1,6 @@
+A FAIRE
+
+- Pouvoir lister les clients dans l'admin
+- Le client peut modifier ou choisir son mot de passe
+- Garder une trace html de la commande dans la table
+- Nombre d'articles pour lesquels on passe d'un "petit" colis à un "gros"

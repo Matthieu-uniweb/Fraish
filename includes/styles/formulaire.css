@@ -1,0 +1,553 @@
+/* CSS Document */
+
+#contenu fieldset {
+	border:#bfbfbf 1px dashed;
+	padding:10px;
+	margin-top:15px;
+}
+#contenu fieldset *
+	{
+	color:#000000;
+	font-size:11px;
+	font-family:Arial,Helvetica,sans-serif;
+	}
+#contenu label {
+	float:left;
+	margin:0;
+	padding:0 0.5em 0 0;
+	text-align:right;
+	width:180px;
+}
+#contenu label.smooth{
+	float:none;
+}
+#contenu li {
+	margin: 0 0 0 20px;
+	text-align:left;
+}
+
+#contenu #aliments {
+	float:left;
+	width:200px;
+	padding-right:10px;
+	height:200px;
+}
+#contenu #aliments p {
+	float:none;
+	text-align:right;
+	height:20px;
+}
+#contenu #aime {
+	float:left;
+	width:100px;
+}
+#contenu #aime p {
+	float:none;
+	text-align:center;
+	height:20px;
+}
+#contenu #moyen {
+	float:left;
+	width:100px;
+}
+#contenu #moyen p {
+	float:none;
+	text-align:center;
+	height:20px;
+}
+#contenu #deteste {
+	float:left;
+	width:100px;
+}
+#contenu #deteste p {
+	float:none;
+	text-align:center;
+	height:20px;
+}
+#contenu p {
+	display:block;
+	margin: 5px 0 5px 0;
+}
+#contenu p span {
+	display:block;
+	float:left;
+}
+#mailing {
+	float:left;
+	margin-right:15px;
+	margin-top:3px;
+}
+#contenu label#news {
+	display:none;
+}
+#contenu .obligatoire {
+	font-weight:bold;
+}
+#contenu select {
+	border:1px solid #000000;
+	color:#000000;
+	margin-bottom:2px;
+}
+#contenu .input300 {
+	border:1px solid #000000;
+	color:#000000;
+	margin-bottom:2px;
+}
+#contenu a.bouton,
+.bouton {
+	display:block;
+	width:150px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#FFFFFF!important;
+	cursor:pointer;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-decoration:none;
+	background-color:#9ba906;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#contenu .boutonAbandonnee {
+	width:70px;
+	height:15px;
+	margin: 0;
+	color:#000000!important;
+	cursor:pointer;
+	text-align:center;
+	text-decoration:underline;
+	background-color:#FFFFFF;
+	font-size:11px;
+}
+#contenu .boutonReserve{
+	display:block;
+	width:200px;
+	height:30px;
+	margin:0;
+	color:#FFFFFF!important;;
+	cursor:pointer;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-decoration:none;
+	background-color:#9ba906;
+	font-size:14px;
+	font-weight:bold;
+}
+a.boutonRetour {
+	float:left;
+	margin-right:10px;
+	padding-top:8px!important;
+	display:block;
+	width:150px;
+	height:22px;
+	margin-left:auto;
+	color:#FFFFFF!important;
+	cursor:pointer;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-decoration:none;
+	background-color:#9ba906;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none!important;
+}
+a.commandeFavori {
+	background-image:url(../../boutique/images/commande-favori.jpg);
+	background-repeat:no-repeat;
+	display:block;
+	height:67px;
+	width:266px;
+}
+#contenu a.bouton,
+#contenu a#boutonEnvoyer {
+	padding-top:5px;
+	height:25px;
+}
+#contenu a#boutonEnvoyer {
+	margin-left:auto;
+	margin-right:auto;
+	}
+#contenu a#boutonEnvoyer:hover,
+#contenu .bouton:hover,
+#contenu .boutonReserve:hover {
+	color:#d7df22;
+}
+#contenu #dateReserv, #contenu #choixPointDeVente {
+/*text-align:center;*/
+}
+/*#contenu #dateReserv input {
+border:#333333 1px solid;
+}*/
+#contenu #choixMenu {
+width:430px;
+height:30px;
+float:left;
+color:#FFFFFF;
+/*background-color:#c5d14a;*/
+background:url(../../boutique/images/chois_menu.gif);
+background-repeat:no-repeat;
+}
+#contenu #choixMenuS {
+width:430px;
+height:30px;
+float:left;
+color:#FFFFFF;
+/*background-color:#c5d14a;*/
+background:url(../../boutique/images/chois_menuS.gif);
+background-repeat:no-repeat;
+}
+#contenu #choixMenu p {
+font-size:14px;
+}
+#contenu #tableauSoupes {
+width:390px;
+height:230px;
+text-align:center;
+font-size:16px;
+margin: 60px 0 0 300px;
+padding: 20px 0 0 0;
+background:url(../../boutique/images/back_soupe.gif);
+background-repeat:no-repeat;
+}
+#contenu #tableauSoupes h3 {
+font-size:18px;
+font-weight:bold;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+}
+#contenu #tableauSoupes p.blanc {
+color:#FFFFFF;
+}
+#contenu #tableauSoupes label.soupe {
+	color:#000000;
+	width:320px;
+	font-size:13px;
+	text-align:left;
+	float:none;
+}
+#contenu #tableauSoupes p span {
+	float:none;
+	text-align:left;
+	margin-left:100px;
+}
+#contenu p.ssTitre {
+	padding:0px;
+	margin:0px 0px 0px 90px !important;
+	text-align:left;
+	font-weight:bold;
+}
+#contenu p.legende {
+	padding:0px;
+	margin:0px 0px 10px 90px !important;
+	text-align:left;
+	font-style:italic;
+}
+#contenu #tableauSalades, #contenu #tableauSalades2, #contenu #tableauSalades3 {
+	margin: 20px 0 0 120px;
+	padding: 30px 0 10px 0;
+	width:620px;
+	/*height:260px;*/
+	height:310px;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:right;
+}
+#contenu #tableauSalades {
+	background:url(../../boutique/images/back_salades.gif);
+	background-repeat:no-repeat;
+	
+}
+#contenu #tableauSalades2 {
+	background:url(../../boutique/images/back_salades2.gif);
+	background-repeat:no-repeat;
+	height:310px;
+	color:#000000;
+	padding-top:15px;
+}
+#contenu #tableauSalades3 {
+	background:url(../../boutique/images/back_salades3.gif);
+	background-repeat:no-repeat;
+	height:190px;
+	margin-top:10px;
+	padding-left:80px;
+}
+#contenu #tableauSalades #un {
+	float:left;
+	margin: 0 10px 0 0;
+	width:200px;
+}
+#contenu #tableauSalades #un p {
+	height: 20px;
+}
+#contenu #tableauSalades #deux {
+	float:left;
+	margin: 0 10px 0 0;
+	width:20px;
+}
+#contenu #tableauSalades #deux p {
+	height: 20px;
+}
+#contenu #tableauSalades #trois {
+float:left;
+margin: 0 10px 0 0;
+width:250px;
+}
+#contenu #tableauSalades #trois p {
+height: 20px;
+}
+#contenu #tableauSalades #quatre {
+float:left;
+width:20px;
+}
+#contenu #tableauSalades #quatre p {
+height: 20px;
+}
+#contenu #tableauSalades2 #cinq {
+	float:left;
+	margin: 0 30px 0px 0px;
+	padding-bottom:15px;
+}
+#contenu #tableauSalades2 input {
+	margin-right:20px;
+}
+#contenu #tableauSalades2 #cinq p {
+height: 20px;
+}
+#contenu #tableauSalades2 #cinq p span, 
+#contenu #tableauSalades2 #six p span, 
+#contenu #tableauSalades2 #sept p span {
+	width:170px;
+}
+#contenu #tableauSalades2 #six {
+	float:left;
+	margin: 0 30px 0px 0px;
+	padding-bottom:15px;
+}
+#contenu #tableauSalades2 #six p {
+height: 20px;
+}
+#contenu #tableauSalades2 #sept {
+	float:left;
+	margin: 0 30px 20px 0px;
+}
+#contenu #tableauSalades2 #sept p {
+height: 20px;
+}
+#tableauSalades2 .ajusteur {
+	width:620px;
+	height:10px;
+}
+#contenu #tableauSalades3 #huit {
+float:left;
+margin: 0 40px 20px 0px;
+}
+#contenu #tableauSalades3 #huit p {
+height: 20px;
+}
+#contenu #tableauSalades3 p {
+	margin:10px 20px 10px 0px;
+}
+#contenu #tableauSalades3 p label{
+color:#FFFFFF;
+}
+
+/*#contenu #tableauSalades div.bas {
+font-size:14px;
+width:860px; 
+height:auto;
+text-align:center;
+vertical-align:middle;
+}*/
+#contenu #tableauSmoothies {
+font-size:14px;
+float:left;
+margin: 10px 0 10px 90px;
+width:520px; 
+height:430px;/*275*/
+display:none;
+text-align:center;
+background:url(../../boutique/images/back_smoothies.gif);
+background-repeat:no-repeat;
+}
+#contenu #tableauSmoothies p{
+text-align:right;
+font-size:14px;
+margin:10px 20px 10px 0;
+width:500px;
+height:20px;
+}
+#contenu #tableauSmoothies p label{
+color:#FFFFFF;
+}
+#contenu #tableauDairySmoothies {
+font-size:14px;
+float:left;
+margin: 10px 0 10px 90px;
+width:520px; 
+height:350px;
+display:none;
+text-align:center;
+background:url(../../boutique/images/back_dairy-smoothies.gif);
+background-repeat:no-repeat;
+}
+#contenu #tableauDairySmoothies p{
+text-align:right;
+font-size:14px;
+margin:10px 20px 10px 0;
+width:500px;
+height:20px;
+}
+#contenu #tableauDairySmoothies p label{
+color:#FFFFFF;
+}
+#contenu #tableauJusDeFruits {
+font-size:14px;
+float:left;
+margin: 10px 0 10px 90px;
+width:520px; 
+height:/*259*/330px;
+display:none;
+text-align:center;
+background:url(../../boutique/images/back_jus.gif);
+background-repeat:no-repeat;
+}
+#contenu #tableauJusDeFruits p {
+text-align:right;
+font-size:14px;
+margin:10px 20px 10px 0;
+width:500px;
+height:20px;
+}
+#contenu #tableauJusDeFruits p label{
+color:#FFFFFF;
+}
+#contenu #choixMenuD {
+width:430px;
+height:30px;
+float:left;
+margin:0 0 10px 0;
+/*background-color:#c5d14a;*/
+background:url(../../boutique/images/chois_menuS.gif);
+background-repeat:no-repeat;
+}
+#contenu #choixMenuD p {
+font-size:14px;
+}
+#contenu #choixMenuG {
+width:430px;
+height:30px;
+float:left;
+margin:0 0 10px 0;
+/*background-color:#c5d14a;*/
+background:url(../../boutique/images/chois_menu.gif);
+background-repeat:no-repeat;
+}
+#contenu #choixMenuG p {
+font-size:14px;
+}
+#contenu .choixMenuSmoothie {
+width:280px;
+height:50px;
+float:left;
+margin:0px 0px 10px 0px;
+padding-top:10px;
+background:url(../../boutique/images/choix_menu-smoothie.gif);
+background-repeat:no-repeat;
+}
+#contenu .choixMenuSmoothie p {
+font-size:14px;
+}
+#contenu #dessert {
+background:url('/boutique/images/back_dessert.gif') no-repeat;
+width:400px;
+height:110px;
+padding:50px 0px 0px 100px;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+margin-left:170px;
+}
+#contenu #supplements {
+background:url('/boutique/images/back_supplements.gif') no-repeat;
+width:350px;
+height:600px;
+padding:35px 0px 0px 14px;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+margin-left:180px;
+}
+
+#contenu #pain {
+	margin: 0px 0 10px 180px;
+	width:380px;
+	height:90px;
+	background:url(../../boutique/images/back_pain.gif);
+	background-repeat:no-repeat;
+	padding:20px 0px 0px 82px;
+}
+#contenu #eau {
+margin-left:230px;
+}
+#contenu #pain h2{
+color:#FFFFFF;
+font-size:20px;
+font-weight:bold;
+}
+#contenu #pied {
+height:156px;
+width:520px;
+margin: 0px 0 10px 120px;
+padding:20px 0px 20px 100px;
+background:url(../../boutique/images/back_total.gif);
+background-repeat:no-repeat;
+}
+#contenu #pied h2{
+color:#FFFFFF;
+font-size:18px;
+font-weight:bold;
+}
+#contenu #pied .bouton{
+	margin:0px;
+	margin-top:25px;
+}
+#retourForm {
+	display:none;
+	height:20px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	overflow:hidden;
+}
+#retourUtilisateur {
+	background-color:#8b0002;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin-bottom:10px;
+	padding:5px;
+	text-align:center;
+	font-size:11px;
+	display:none;
+}
+#retourUtilisateur.visible {
+	display:block;
+}
+
+.inputQte {
+width:30px; 
+border:solid 1px #000;
+}
+
+#sondage {
+	background-color:#FFC;
+	padding-left:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#sondage p em {
+	text-decoration:underline;
+}

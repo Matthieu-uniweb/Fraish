@@ -1,0 +1,62 @@
+/* + -----------------------------------------------------
+	Styles appliqués au Calendrier
++ ----------------------------------------------------- */
+#calendar{
+	display:block;
+	position:absolute;
+	top:240px;
+	z-index:16;
+	left:545px;
+	width:359px;
+	height:358px;
+	font-size:10px;
+}
+
+#calendrier li{
+	list-style: none;	
+}
+
+#libelle {
+	text-align:center;
+	width: 350px;
+	margin: 0 0 0 10px;
+	padding: 0;
+	background-color:#FF3366;
+}
+.ligne {
+	text-align:center;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+} 
+#libelle li {
+	list-style: none;
+	float : left;
+	width : 30px; 
+}
+.ligne li {
+	list-style: none;
+	color: #000;
+	float : left; 
+	width : 30px;
+	text-align:center; 
+}
+.ligne a {
+	text-align:center; 
+}
+.ligne li a:hover{
+	list-style: none;
+	text-decoration: none;
+	text-align:center;
+}
+
+li.itemCurrentItem {
+	background-color:#FF0000;
+	color:#ffffff;
+	text-align:center;
+}
+li.itemSelectedItem {
+	background-color:#FF0000;
+	color:#FFFFFF;
+	text-align:center;
+}		

@@ -1,0 +1,420 @@
+.divVisible
+{
+	visibility:visible;
+	padding-left:10px;
+	display:block;
+	cursor: hand;
+}
+
+.divInvisible
+{
+	visibility:hidden;
+	padding-left:10px;
+	display:none;
+	cursor: hand;
+}
+.dossierFerme
+{
+	cursor: hand;
+}
+
+.dossierOuvert
+{
+	cursor: hand;
+}
+
+.divOeilVoir {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	background-image:url(../../images/front/oeil.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	cursor: hand;
+}
+
+.divOeilVoir:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: normal;
+	background-position:left;
+	background-repeat:no-repeat;
+	background-image:url(../../images/front/oeil.gif);
+	cursor: hand;
+}
+
+.guideEtudiantResultatsPasDeResultat {
+	background-color: #CC3300;
+	border: 1px solid #0D4B91;
+}
+.guideEtudiantResultatsPrincipal {
+	background-color: #FAFDFE;
+	border: 1px solid #0D4B91;
+}
+.guideEtudiantResultatsCoin {
+	background-color: #0D4B91;
+}
+.guideEtudiantResultatsTitre {
+	background-color: #169BD4;
+}
+.guideEtudiantResultatsContour {
+	border: 1px solid #169BD4;
+}
+.guideEtudiantResultatsLigne {
+	border: 1px solid #FFF2FC;
+}
+.guideEtudiantResultatsSeparateur {
+	background-color: #169BD4;
+	border: 1px solid #FAFDFE;
+}
+
+.textecourant {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #B81918;
+	text-decoration: none;
+}
+
+a.textecourant {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: none;
+	color: #B81918;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration:underline;
+}
+
+a.textecourant:hover {
+	text-decoration:none;
+	color: #B81918;
+}
+
+.titre {color: #FFFFFF}
+
+.etudiants {
+	color: #336699;
+	text-decoration:none;
+}
+.etudiants:hover {
+	color: #336699;
+	text-decoration:underline;
+}
+
+.etudiantsTrame {
+	background-color: #0D4B91;
+	color: #C7E0F1;
+}
+
+a.boutontexte {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	border: none;
+	color: #006699;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+a.boutontexte:hover {
+	color: #00496C;
+	text-decoration: none;
+}
+
+
+
+.annuaireTitre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FB7115;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.annuaireSousTitre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-style:italic;
+}
+
+.annuaireRecherche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #8E0000;
+	font-weight: bold;
+}
+
+.annuaireRubrique {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #980000;
+}
+
+.annuaireSousRubrique {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #900000;
+}
+
+.annuaireLien {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #980000;
+	text-decoration: underline;
+}
+
+.annuaireLien:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #980000;
+	text-decoration: none;
+}
+
+.annuaireResultatsTitre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #8F0000;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.annuaireResultatsSousTitre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+.guideResultatsPasDeResultat {
+	background-color: #F6AC00;
+	border: 1px solid #B81918;
+}
+.guideResultatsPrincipal {
+	background-color: #FAFDFE;
+	border: 1px solid #0D4B91;
+}
+.guideResultatsCoin {
+	background-color: #0D4B91;
+}
+.guideResultatsTitre {
+	background-color: #169BD4;
+}
+.guideResultatsContour {
+	border: 1px solid #169BD4;
+}
+.guideResultatsLigne {
+	border: 1px solid #FFF2FC;
+}
+.guideResultatsSeparateur {
+	background-color: #169BD4;
+	border: 1px solid #FAFDFE;
+}
+
+.rubriqueGuideFermee {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #9C9C9C;
+	text-decoration: none;
+	font-weight: normal;
+	background-image:url(../../images/front/clic_plus.gif);
+	background-position:left;
+	background-repeat:no-repeat;cursor: hand;
+}
+
+.rubriqueGuideFermeeOver {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #9C9C9C;
+	text-decoration: none;
+	font-weight: normal;
+	background-position:left;
+	background-repeat:no-repeat;
+	background-image:url(../../images/front/clic_plus-over.gif);
+	cursor: hand;
+}
+
+.rubriqueGuideOuverte {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #9C9C9C;
+	text-decoration: none;
+	font-weight: normal;
+	background-image:url(../../images/front/clic_moins.gif);
+	background-position:left;
+	background-repeat:no-repeat;cursor: hand;
+}
+
+.rubriqueGuideOuverteOver {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #9C9C9C;
+	text-decoration: none;
+	font-weight: normal;
+	background-position:left;
+	background-repeat:no-repeat;
+	background-image:url(../../images/front/clic_moins-over.gif);
+	cursor: hand;
+}
+
+.rubriqueGuideFinale {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #9C9C9C;
+	text-decoration: none;
+	font-weight: normal;
+	cursor: hand;
+}
+
+.rubriqueGuideFinale:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #9C9C9C;
+	text-decoration: none;
+	font-weight: normal;
+	cursor: hand;
+}
+
+.inputAnnuaire {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #8A8A8A;
+	border: 1px solid #E3C393;
+	width: 120px;
+}
+
+.radioAnnuaire {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	border: 0px solid #E3C393;
+	width:auto;
+}
+
+.guideResultatsTrame {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	background-color: #B81918;
+	color: #FEA901;
+}
+
+.categorie {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	cursor: hand;
+}
+
+.boutonRechercher {
+	cursor: hand;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #8E0000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.boutonRechercher:hover {
+	cursor: hand;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #8E0000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.commentaire {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #222222;
+	text-decoration: none;
+}
+
+.categorieResultats {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color:#F6AC00;
+	font-weight:bold;
+}
+
+.structureResultats {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #2D2D2D;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.descriptifResultats {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2D2D2D;
+	text-decoration: none;
+}
+
+.adresseResultats {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #A65555;
+	text-decoration: none;
+}
+
+.contactResultats {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2E9A00;
+	text-decoration: none;
+}
+
+.basPage {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #C3311A;
+	text-decoration: none;
+}
+
+.basPage {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #C3311A;
+	text-decoration: none;
+}
+.lienBasPage {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #515151;
+	text-decoration: none;
+}
+.lienBasPage:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #515151;
+	text-decoration: none;
+}
+
+.canton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #B28685;
+	font-weight:bold;
+}
+.canton_selectionne {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #AF1411;
+	font-weight:bold;
+}
+.checkbox_canton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	border: 0px solid #1C5180;
+	width:auto;
+}

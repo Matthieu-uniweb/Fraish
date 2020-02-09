@@ -1,0 +1,552 @@
+
+/*RESET CSS Eric Meyer http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th, table td {
+    border:0;
+    line-height: 13.5px;
+    padding: 6px 10px 6px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+b {font-weight: bold;}
+i {font-style: italic;}
+
+p{margin: 0 0 20px 0;}
+dd{margin-left: 20px;}
+
+/***********************************************************/
+
+
+html {
+  /*height: 100%;  */
+  background-color: #004e1c;
+}
+
+body {
+  font-family: Arial,sans-serif;
+  line-height: 1.3em; 
+  font-size: 12px;
+  color: #666666;  
+ /* height: 100%;*/
+  background: #004e1c url(./img/bck.jpg) repeat-x center 0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  font-weight: normal;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+
+
+h2{font-size: 16px; font-weight: bold; color: #59595a; margin: 8px 0 8px 0; display: block;}
+
+h1{font-size: 16px; font-weight: bold; color: #59595a; margin: 8px 0 20px 0; display: block;}
+
+
+
+div#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 0 0 1px 0;
+}
+div#top{
+	height:  191px;
+	overflow: hidden;
+}
+div#illusalade{
+	float: left;
+	background: url(./img/salade.jpg) no-repeat top left;
+	width: 230px;
+	height: 191px;
+}
+a.home{
+	float: left;
+	display: block;
+	background: url(./img/fraish_04.png) no-repeat top left;
+	width: 292px;
+	height:  174px;
+}
+div#illuverres{
+	float: left;
+	display: block;
+	background: url(./img/fraish_05.jpg) no-repeat top left;
+	width: 270px;
+	height:  174px;
+}
+div#account{
+	float: left;
+	border-left: 1px solid #666666;
+	width: 133px;
+	height: 150px;
+	margin: 25px 0 0 0;
+}
+a.connect{
+	display: block;
+	background: url(./img/fraish_08.png) no-repeat bottom center;
+	height: 25px;
+	width: 75px;
+	text-align: center;	
+	margin: 0 auto;
+	font-size: 12px;
+}
+a.compte{
+	display: block;
+	background: url(./img/fraish_12.png) no-repeat top center;
+	
+	width: 75px;
+	text-align: center;	
+	margin: 10px auto;
+	font-size: 12px;
+	padding-top: 35px;
+}
+a.panier{
+	display: block;
+	background: url(./img/fraish_15.png) no-repeat top center;	
+	width: 75px;
+	text-align: center;	
+	margin: 10px auto;
+	font-size: 12px;
+	padding-top: 40px;
+}				
+div#menu{
+	clear: left;
+	/*background: url(./img/fraish_18.jpg) repeat-x top left;*/
+	height: 40px; 
+	width: 960px;
+	margin: 0;
+	overflow: hidden;
+	border-top: 1px solid #bbbbbb;
+	border-bottom: 1px solid #bbbbbb;	
+}
+a.commandezr{
+	display: block;
+	float: left;
+	background: url(./img/commandez-rouge.png) no-repeat top left;
+	width: 233px;
+	height: 70px;	
+	position: absolute;
+	margin-top: -29px;
+}
+a.commandezv{
+	display: block;
+	float: left;
+	background: url(./img/commandez-vert.png) no-repeat top left;
+	width: 233px;
+	height: 70px;
+	position: absolute;
+	margin-top: -29px;	
+}
+a.homebis{
+	display: block;
+	float: left;
+	background: url(./img/fraish_21.jpg) no-repeat top left;
+	width: 40px;
+	height: 31px;
+	margin: 5px 20px 0 260px;
+}
+a.mlnk1{
+	margin-top: 12px;
+	display: block;
+	float: left;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #939597;
+	border-left: 2px solid #939597;
+}
+a.mlnk2{
+	margin-top: 12px;
+	display: block;
+	float: left;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #939597;
+	border-left: 2px solid #939597;
+}
+a.mlnk3{
+	margin-top: 12px;
+	display: block;
+	float: left;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #939597;
+	border-left: 2px solid #939597;
+}
+
+
+div#searchb{margin: 12px 18px 0 0; float: right;}
+
+input.sbox{background: url(./img/fraish_24.jpg) no-repeat top left; width: 121px; height: 18px; border: none; margin: 0; padding: 0 0 0 25px; display: block; float: left;}
+
+input.searchBT{background: url(./img/fraish_25.jpg) no-repeat top left; width: 19px; height: 18px; border: none; margin: 0; padding: 0; display: block; float: left;}
+
+span.searchtxt{	font-size: 14px; color: #939597;float: left; display: block; margin-right: 10px;}
+
+div#contents{
+	padding: 20px 15px 0 15px;
+	border-bottom: 1px solid #dddddd;
+	background: url(./img/fraish_30.png) repeat-x top left;
+}
+
+div#cleft{
+	width: 644px;
+	float: left;
+}
+div#cright{
+	float: right;
+	padding: 0;
+	width: 260px;
+}
+a.ardoise{
+	display: block;
+	float: left;
+	background: url(./img/accueil.jpg) no-repeat top left;
+	width: 667px;
+	height: 291px;
+	margin: 0;
+}
+div#bjs{
+	background: url(./img/fraish_35.png) no-repeat top left;
+	width: 260px;
+	height: 96px;
+}
+div#bs{
+	background: url(./img/fraish_36.png) no-repeat top left;
+	width: 260px;
+	height: 72px;
+}
+div#bso{
+	background: url(./img/fraish_37.png) no-repeat top left;
+	width: 260px;
+	height: 73px;
+}
+
+a#bjs{
+	background: url(./img/fraish_35.png) no-repeat top left;
+	width: 260px;
+	height: 96px;
+	display: block;
+}
+a#bs{
+	background: url(./img/fraish_36.png) no-repeat top left;
+	width: 260px;
+	height: 72px;
+	display: block;
+}
+a#bso{
+	background: url(./img/fraish_37.png) no-repeat top left;
+	width: 260px;
+	height: 73px;
+	display: block;
+}
+div#bottom{
+	padding: 17px 18px 0 28px;
+}
+div#slider{	
+	float: left;
+	/*background: url(./img/fraish_42.jpg) no-repeat top left;*/
+	width: 644px;
+	height: 203px;
+	margin: 0;	
+	overflow: hidden;
+}
+a.recettes{
+	display: block;
+	float: right;
+	background: url(./img/astuces.jpg) no-repeat top left;
+	width: 259px;
+	height: 220px;	
+}
+div#footer{
+	
+}
+div#mycenter{
+	width: 960px;
+	margin: 20px auto;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+
+a.footerlnk{color: #ffffff; font-size: 12px; font-weight: normal; cursor: pointer;}
+
+a.footerlnkv{color: #72be5d; font-size: 12px; font-weight: normal; cursor: pointer;}
+
+div#sociallnks{float: right; margin-right: 18px;}
+
+div#footercenter{text-align: center; float: left; margin-left: 400px;}
+
+a.twitter{
+	display: block;
+	float: left;
+	background: url(./img/fraish_47.png) no-repeat top left;
+	width: 27px;
+	height: 28px;	
+	margin-right: 5px;
+}
+
+a.rss{
+	display: block;
+	float: left;
+	background: url(./img/fraish_49.png) no-repeat top left;
+	width: 28px;
+	height: 28px;	
+	margin-right: 5px;
+}
+
+a.facebook{
+	display: block;
+	float: left;
+	background: url(./img/fraish_52.png) no-repeat top left;
+	width: 28px;
+	height: 27px;
+}
+
+div#contents-green{
+	padding: 20px 15px 15px 15px;	
+	background: #7ab54d url(./img/deg-commande.png) repeat-x top left;
+}
+
+div#contents-white{
+	padding: 20px 30px 30px 30px;	
+	background: #ffffff url(./img/deg-commande-white.png) repeat-x top left;
+}
+
+div#fruits{background: url(./img/fruits.jpg) no-repeat bottom right;}
+div#fruits33{background: url(./img/fruits33.jpg) no-repeat bottom right;}
+
+div#road{
+	height: 50px;
+	background-color: #004e1c;
+	color: #7aba4d;
+	font-size: 14px;
+	padding: 10px 0 0 15px;
+}
+
+div#road span{font-size: 38px; float: left;}
+div#road div.topcenter {display: block; width: 100px; float: left; margin: 1px 0 0 5px; line-height: 15px;}
+
+div#etape1{
+	float: left; 
+	width: 138px;
+	border-right: 2px solid #7aba4d;
+}
+div#etape2{
+	float: left; 
+	width: 138px;
+	padding-left: 15px;
+	border-right: 2px solid #7aba4d;
+}
+div#etape3{
+	float: left; 
+	width: 138px;
+	padding-left: 15px;
+	border-right: 2px solid #7aba4d;
+}
+div#etape4{
+	float: left; 
+	width: 138px;
+	padding-left: 15px;
+	border-right: 2px solid #7aba4d;
+}
+div#etape5{
+	float: left; 
+	width: 138px;
+	padding-left: 15px;
+	border-right: 2px solid #7aba4d;
+}
+div#etape6{
+	float: left; 
+	width: 138px;
+	padding-left: 15px;	
+}
+.actif{color: #ffffff;}
+
+div#contents-green h1{color: #ffffff; font-size: 24px; text-align: center; margin: 20px 0 20px 0;}
+
+div.table {float: left; width: 148px; margin: 0 8px 23px 0; display: block;}
+
+div.table table{border: 1px solid #000000;}
+div.table table th{border: 1px solid #000000; background-color: #004e1c; font-weight: bold; height: 50px; color: #7aba4d;font-size: 16px;vertical-align: middle; text-align: center;}
+div.table table th span{color: #ffffff;font-size: 20px;}
+
+div.table table td{border: 1px solid #000000;background-color: #ffffff; height: 40px; width: 70px; text-align: center; vertical-align: middle;font-size: 11px;}
+
+div.table table td a{color: #7aba4d;font-weight: bold; text-decoration: none;}
+div.table table td a:hover{text-decoration: none;}
+
+div.table table td span{font-size: 22px;}
+div.table table td.versionmenu:hover{border: 1px solid #000000;background-color: #004e1c; cursor: pointer;}
+
+div.table table td.nommenu{color: #808285; font-size: 12px; font-weight: bold; }
+div.table table td.nommenug{color: #808285; font-size: 12px; font-weight: bold; text-align: center; padding-left: 3px;width: 67px;}
+div.table table td.versionmenu{color: #7aba4d;font-size: 12px; font-weight: bold;}
+
+div.table table tr{border: 1px solid #000000;background-color: #ffffff;}
+
+/*Identification*/
+div#boxleft{
+	float: left;
+	width: 400px;	
+	padding: 0 40px 0 10px;
+	text-align: right;	
+}
+
+div#boxright{
+	float: left;
+	width: 440px;
+	padding: 0 10px 0 20px;
+	border-left: 2px solid #444444;
+	text-align: right;
+}
+
+div.globalbox h2{
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+button.btnfleche {display: block; padding-right: 35px; background: url(./img/fleche.png) no-repeat top right; border: 0; font-weight: bold; color: #ffffff; height: 27px; line-height: 27px; font-size: 13px; float: right;}
+
+form label{font-weight: bold; color: #ffffff;}
+
+/*fin Identification*/
+
+/*Ingredients*/
+div.colonneIngredients {width: 170px; border-right: 1px solid #007028; padding: 0 10px 10px 10px; float: left; text-align: left; }
+div.colonneIngredients hr{background-color: #004E1C; height: 1px; border: 0; margin-top: 20px;}
+h2.titrefam{color: #004E1C; font-size: 15px; text-transform: uppercase; font-weight: normal; margin: 15px 0 0 16px;}
+button.btnflecherose {display: block; padding-right: 35px; background: url(./img/fleche-rose.png) no-repeat top right; border: 0; font-weight: bold; color: #ffffff; height: 27px; line-height: 27px; font-size: 13px; float: right;}
+span.greenlittle {color: #004E1C; font-size: 11px; margin-left: 20px;}
+div.surcolonne{text-align: center; float: left; padding-top: 0; margin-top: 0;}
+h2.titrefamsc {font-weight: bold; font-size: 16px; text-transform: uppercase; color: #004E1C; margin-bottom: 15px; margin-top: 0;}
+h2.titrefamscleft {font-weight: bold; font-size: 16px; text-transform: uppercase; color: #004E1C; margin: 0 0 15px 16px;}
+h2.noMt{margin-top: 0;}
+.inputs-list li:first-child {
+    padding-top: 0;
+}
+ul.inputs-list li label.labeldisabled{color: #b9d8a1;}
+
+
+div.colonneinfosplus{float: left; margin-top: -10px;}
+div.cvertright{margin: 0 0 20px 15px; background-color: #004E1C; padding: 10px 15px 15px 15px; color: #ffffff; font-weight: bold; width: 120px;}
+div.cvertright h2{color: #7ab54d; font-weight: bold; font-size: 14px;margin-bottom: 20px;}
+div.cvertright h3{color: #7ab54d; font-weight: normal; font-size: 13px; text-transform: uppercase; margin-bottom: 5px;}
+div.cvertright h4{color: #7ab54d; font-weight: bold; font-size: 12px; text-decoration: underline;}
+span.tdet{color: #7ab54d; font-weight: bold; font-size: 12px; text-decoration: underline;}
+/*fin Ingredients*/
+
+
+div#mypanier{background-color: #ffffff; border: 2px solid #004E1C; margin: 30px 0 20px 0; min-height: 250px;}
+
+div#leftpanier{float: left; width: 340px;}
+h2.titreformulepanier{display: block; width: 320px; color: #ffffff; background-color: #004E1C; margin: 0; padding: 15px 10px; text-align: center; font-size: 22px;}
+
+div#rightpanier{float: left; padding: 20px; width: 545px;}
+
+div.detailpanier{padding: 20px; font-size: 14px; color: #7777777; border-right: 1px solid #888888; margin-top: 10px;}
+
+a.btVert{background-color: #81b334; padding: 12px 30px; color: #ffffff; font-weight: bold; display: inline-block; font-size: 16px; width: auto;}
+
+button.txtnoir{color: #777777;}
+input.price{background-color: #004E1C; display: inline-block; padding: 8px 15px; color: #81b334; font-weight: bold; font-size: 16px; border: none;border-radius: 0;}
+
+span.panier{
+	display: block;
+	background: url(./img/fraish_15.png) no-repeat top center;	
+	width: 130px;
+	height: 25px;
+	text-align: right;	
+	margin: 15px 0 5px -40px;
+	font-size: 12px;
+	padding: 25px 0 0 30px;
+	color: #000;
+	font-size: 13px;
+}	
+
+span.commande{
+	display: block;
+	width: 130px;
+	height: 25px;
+	text-align: right;	
+	margin: 0 0 5px 0;
+	font-size: 12px;
+	padding: 0;
+	color: #000;
+	font-size: 13px;
+}	
+
+a.btnflecheverte {display: block; padding-left: 35px; background: url(./img/fl_green_left.png) no-repeat top left; border: 0; font-weight: bold; height: 27px; line-height: 27px; font-size: 13px;}
+a.btnflecherose {display: block; padding-right: 30px; background: url(./img/fleche-rose.png) no-repeat top right; border: 0; font-weight: bold; color: #000000; height: 27px; line-height: 27px; font-size: 13px; width: 50px; float: right;}
+
+a.btnflecheroseleft {display: block; padding-left: 35px; background: url(./img/fleche-rose-left.png) no-repeat top left; border: 0; font-weight: bold; height: 27px; line-height: 27px; font-size: 13px; color: #ffffff;}
+
+input.btnflecherose {width: 90px;display: block; padding-right: 30px; background: #ffffff url(./img/fleche-rose.png) no-repeat top right; border: 0; font-weight: bold; color: #000000; height: 27px; line-height: 27px; font-size: 13px; float: right; border: none;border-radius: 0;box-shadow: none;}
+
+td.lefttabcompte{text-align: right; padding-right: 20px;font-size: 13px;}
+td.righttabcompte{text-align: left; padding-left: 10px; font-weight: bold;font-size: 13px;}
+
+
+hr.hrcompte{margin: 35px 0;}
+
+span.entete{font-size: 14px; font-weight: bold;}
+
+.pink{color: #e00868;}
+
+input.codepromo{width: 150px; height: 16px; font-size: 11px;float: right; position: relative; bottom: 95px; right: 60px; font-style: italic; text-align: center;}
+
+
+p.txtcodepromo{color: #e00868; font-size: 13px; margin-left: 20px;}
+p.txtcodepromo span {font-weight: bold;}
+div.codepromodescription{width: 300px;color: #e00868; font-style: italic; margin-left: 20px; }

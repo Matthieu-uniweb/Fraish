@@ -1,0 +1,101 @@
+@media (max-width: 640px) {
+
+
+/* RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:  0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; } :focus { outline: 0; } body { line-height: 1; color: black; background: white; } ol, ul { list-style: none; } table { border-collapse: separate; border-spacing: 0; } caption { text-align: left; font-weight: normal; } blockquote:before, blockquote:after, q:before, q:after { content: ""; } blockquote, q { quotes: "" ""; } 
+
+
+
+ /* passer tous les éléments de largeur fixe en largeur automatique */
+ body, element1, element2 {
+   width: auto;
+   margin: auto;
+   padding: auto;
+ }
+
+ /* fixer une largeur maximale  de 100 % aux éléments potentiellement problématiques */
+ img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+   max-width: 100%;
+ }
+/* conserver le ratio des images et empêcher les débordements de boîtes dûs aux border ou padding */
+ img {
+   height: auto; width: auto;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+ }
+
+ /* gestion des mots longs */
+ textarea, table, td, th, code, pre, samp {
+   word-wrap: break-word; /* passage à la ligne forcé */
+   -webkit-hyphens: auto; /* césure propre */
+   -moz-hyphens: auto;
+   hyphens: auto;
+ }
+ code, pre, samp {
+   white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+ }
+
+ /* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+ element1, element2 {
+   float: none !important;
+   width: auto !important
+ }
+
+ /* masquer les éléments superflus */
+ .hide_mobile {
+   display: none !important;
+ }
+
+ /* Un message personnalisé */
+ body:before {
+   /*content: "Version mobile du site";*/
+   display: block;
+   color: #777;
+   text-align: center;
+   font-style: italic;
+ 
+}
+
+
+
+
+body {
+  font-family: Arial,sans-serif;
+  line-height: 1.3em; 
+  font-size: 12px;
+  color: #ffffff;  
+  height: 100%;
+  background-color: #4ba239;
+  width: 640px;
+  -webkit-text-size-adjust: none;
+  padding: 0 0 15px 0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  font-weight: normal;
+  color: #636465;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+
+div#formCGmob {   
+  background-color: #4ba239;
+  overflow: hidden;   
+  width: 640px;
+  padding: 0 15px 0 15px;
+  /*width: 622px;
+  height: 669px; 
+  padding: 390px 0 0 0; */
+}
+
+div#formCGSuite {    
+  overflow: hidden;   
+  width: 622px;
+  height: 669px; 
+  padding: 585px 0 0 45px; 
+}
